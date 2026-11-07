@@ -1,9 +1,38 @@
 <!doctype html>
 <html lang="en">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>homergy</title></head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>homergy</title>
+  <meta name="description" content="A self-hosted tool that keeps an eye on home energy costs.">
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
-<h1>homergy</h1>
-<p>A personal, self-hosted tool that watches the owner's home energy bills and compares them with the public offers in the Spanish market regulator's comparator.</p>
-<p>It is not offered to anyone else. <a href="privacy.html">Privacy policy</a>.</p>
+  <div class="wrap">
+    <header>
+      <div class="logo" aria-hidden="true">⚡</div>
+      <div>
+        <div class="name">homergy</div>
+        <div class="tag">Home energy cost watcher</div>
+      </div>
+    </header>
+
+    <main class="card">
+      <h1>Keeps an eye on home energy costs</h1>
+      <p class="lead">homergy is a small self-hosted tool. It compares the cost of a household's electricity and gas contracts with the public offers listed by the Spanish energy regulator, and only sends a notification when switching is worth it.</p>
+
+      <div class="features">
+        <div class="feature"><b>Self-hosted</b><span>Runs on its owner's own server.</span></div>
+        <div class="feature"><b>Read-only</b><span>Reads invoice emails; never sends or changes anything.</span></div>
+        <div class="feature"><b>Private</b><span>No data is shared with third parties.</span></div>
+      </div>
+
+      <p>It is a personal project, used only by its owner. It is not offered as a service.</p>
+    </main>
+
+    <footer>
+      <a href="privacy.html">Privacy policy</a>
+    </footer>
+  </div>
 </body>
 </html>
